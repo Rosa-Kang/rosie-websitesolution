@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-cream text-brown-900 antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+  
+  .elegant-serif {
+    font-family: 'Georgia', serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-brown-800 text-cream px-6 py-3 text-sm font-medium tracking-wide uppercase transition-all duration-300 hover:bg-brown-700;
+  }
+  
+  .btn-secondary {
+    @apply border border-brown-800 text-brown-800 bg-transparent px-6 py-3 text-sm font-medium tracking-wide uppercase transition-all duration-300 hover:bg-brown-800 hover:text-cream;
+  }
+  
+  .section-padding {
+    @apply py-20 lg:py-28;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 lg:px-8;
+  }
+}
