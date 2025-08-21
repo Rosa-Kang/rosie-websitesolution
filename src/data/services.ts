@@ -14,32 +14,31 @@ export const services: Service[] = [{
     title: "WordPress Website",
     description: "Fast-track your online presence with our streamlined website creation process. Perfect for entrepreneurs who need to launch quickly without compromising on quality.",
     features: [
-      "Template-based design",
-      "Quick customization",
+      "Custom design and development",
       "Essential pages setup",
       "Basic SEO implementation",
-      "1 week delivery"
     ],
     price: "From $2,500",
     included: [
-      "Template customization",
+      "Custom design and development",
       "Up to 5 pages",
       "Basic branding application",
       "Contact form",
       "Mobile responsive",
       "Basic SEO",
-      "1 round of revisions",
+      "2 rounds of revisions",
       "7 days support"
     ],
     notIncluded: [
-      "Custom design",
       "E-commerce features",
       "Advanced integrations",
       "Multiple revisions",
       "Content creation",
       "Photography",
       "Logo design",
-      "Extended support"
+      "Extended support",
+      "Hosting purchase",
+      "Domain purchase"
     ],
     imagePosition: "left",
     imageAlt: "Fast Website Development",
@@ -74,7 +73,9 @@ export const services: Service[] = [{
       "Copywriting services",
       "Logo design",
       "Photography",
-      "Ongoing maintenance"
+      "Ongoing maintenance",
+      "Domain purchase",
+      "Squarespace subscription"
     ],
     imagePosition: "right",
     imageAlt: "Squarespace Website Design",
@@ -110,7 +111,9 @@ export const services: Service[] = [{
       "Advanced analytics",
       "Email marketing setup",
       "Social media advertising",
-      "Ongoing maintenance"
+      "Ongoing maintenance",
+      "Domain purchase",
+      "Shopify subscription"
     ],
     imagePosition: "left",
     imageAlt: "Shopify E-commerce Design",
@@ -147,7 +150,9 @@ export const services: Service[] = [{
       "Printing services",
       "Social media management",
       "Marketing strategy",
-      "Ongoing maintenance"
+      "Ongoing maintenance",
+      "Hosting purchase",
+      "Domain purchase"
     ],
     imagePosition: "right",
     imageAlt: "Branding and Website Package",
