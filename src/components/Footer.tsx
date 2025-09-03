@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container-custom">
         <div className="text-center">
           <Link href="/">
-            <h3 className="elegant-serif text-2xl mb-4 cursor-pointer">Therosessom .</h3>
+            <div className="elegant-serif text-2xl mb-4 cursor-pointer">Therosessom .</div>
           </Link>
           <p className="text-cream/70 mb-6">
             Creating beautiful websites for your brands

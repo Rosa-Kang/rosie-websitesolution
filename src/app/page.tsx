@@ -2,10 +2,12 @@
 
 import { useRouter } from 'next/navigation'
 import Header from '@/components/Header'
-import Hero from '@/components/Hero'
-import ServiceSection from '@/components/ServiceSection'
+import dynamic from 'next/dynamic'
 import { services } from '@/data/services'
 import Footer from '@/components/Footer'
+
+const DynamicServiceSection = dynamic(() => import('@/components/ServiceSection'), { ssr: false })
+const DynamicHero = dynamic(() => import('@/components/Hero'), { ssr: false })
 
 export default function Home() {
   const router = useRouter()
@@ -17,10 +19,10 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Header />
-      <Hero />
+      <DynamicHero />
       
       {services.map((service, index) => (
-        <ServiceSection
+        <DynamicServiceSection
           key={index}
           {...service}
           onInquire={handleInquire}

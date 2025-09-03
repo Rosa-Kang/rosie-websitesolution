@@ -40,9 +40,9 @@ export default function ServiceSection({
           >
             {/* 이전 텍스트 콘텐츠와 동일한 내용 */}
             <div className="mb-6">
-              <h3 className="elegant-serif text-3xl lg:text-4xl text-brown-900 mb-4">
+              <h2 className="elegant-serif text-3xl lg:text-4xl text-brown-900 mb-4">
                 {title}
-              </h3>
+              </h2>
               <p className="text-brown-700 text-lg leading-relaxed mb-6">
                 {description}
               </p>
