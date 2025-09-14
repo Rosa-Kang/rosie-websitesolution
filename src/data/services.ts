@@ -18,7 +18,7 @@ export const services: Service[] = [{
       "Essential pages setup",
       "Basic SEO implementation",
     ],
-    price: "From $2,500",
+    price: "From $1,200",
     included: [
       "Custom design and development",
       "Up to 5 pages",
@@ -54,7 +54,7 @@ export const services: Service[] = [{
       "Content management training",
       "2 weeks delivery"
     ],
-    price: "From $3,500",
+    price: "From $1,500",
     included: [
       "Custom website design",
       "Up to 7 pages",
@@ -91,7 +91,7 @@ export const services: Service[] = [{
       "Payment gateway setup",
       "3 weeks delivery"
     ],
-    price: "From $4,500",
+    price: "From $2,500",
     included: [
       "Custom Shopify theme",
       "Product catalog setup",
@@ -129,7 +129,7 @@ export const services: Service[] = [{
       "Brand guidelines document",
       "4 weeks delivery"
     ],
-    price: "From $6,500",
+    price: "From $3,500",
     included: [
       "Complete brand identity",
       "Logo design (3 concepts)",
